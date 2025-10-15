@@ -344,16 +344,10 @@ Assim como no caso anterior, o Random Forest Regressor apresentou um desempenho 
 
 #### 🎮 PokeAi - Detecção de Pokémon
 
-```bash
-# Navegar para o diretório
-cd PokeAi
+Uma IA treinada para identificar os 3 iniciais de Kanto dos jogos de Pokemon(Bulbasaur, Squirtle e Charmander). Dataset foi feito utilizando `Roboflow` e a IA utiliza um modelo Yolo com base no criado no Roboflow.
 
-# Instalar dependências
-pip install roboflow ultralytics opencv-python
-
-# Executar no Google Colab
-# Abrir PokeAi.ipynb no Google Colab
-```
+ - Abrir o arquivo **PokeAi.ipynb** no Google Colab
+ - Arrastar o arquivo **best.pt**(IA Treinada) para os ficheiros
 
 #### 👋 Reconhecimento de Mãos
 
@@ -391,9 +385,12 @@ jupyter notebook cp2Ia.ipynb
 
 #### 🎮 PokeAi
 
-1. **Treinamento**: Execute todas as células no Google Colab
-2. **Teste**: Carregue uma imagem de Pokémon para detecção
-3. **Resultado**: Visualize bounding boxes com confiança
+**Imagens para teste:** [Imagens para teste e dataset de treino](https://drive.google.com/drive/folders/1KN9yAB41OSTnZ6Z7xnNYrZ333zssh97-?usp=drive_link)
+
+1. **Configuração inicial**: Mude o `caminho_do_modelo` inserindo o caminho do arquivo `best.pt` previamente colocado nos ficheiros 
+2. **Imagem**: Carregue uma imagem de Pokémon para detecção na variável `caminho_da_imagem` passando o caminho para uma imagem inserida no ficheiro
+3. **Teste**: Execute todas as células
+4. **Resultado**: Visualize bounding boxes com confiança
 
 #### 👋 Reconhecimento de Mãos
 
@@ -415,7 +412,7 @@ jupyter notebook cp2Ia.ipynb
 
 - **Confiança**: Probabilidade de detecção correta
 - **Bounding Box**: Localização do Pokémon na imagem
-- **Classe**: Tipo de Pokémon detectado
+- **Classe**: Tipo de Pokémon detectado podendo ser `bulbasaur`, `squirtle` ou `charmander`
 
 #### 👋 Reconhecimento de Mãos
 
@@ -469,7 +466,7 @@ jupyter notebook cp2Ia.ipynb
 
 - **Wine Dataset**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/109/wine)
 - **California Housing Dataset**: Incluído na biblioteca `sklearn.datasets`
-- **Pokémon Dataset**: Dataset personalizado via Roboflow
+- **Pokémon Dataset**: [Dataset Roboflow](https://drive.google.com/drive/folders/17gU9igY5GIWOgMJzTlx7CUep98mY83xb?usp=drive_link)
 
 ### 📚 Bibliotecas e Ferramentas
 
