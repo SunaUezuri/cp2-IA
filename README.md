@@ -41,6 +41,7 @@
 - [🚀 Instalação e Uso](#-instalação-e-uso)
 - [💡 Insights e Conclusões](#-insights-e-conclusões)
 - [📚 Referências](#-referências)
+- [Link](#-link-para-o-vídeo-de-demonstração)
 
 ---
 
@@ -492,6 +493,10 @@ jupyter notebook cp2Ia.ipynb
 - **NumPy**: [Documentação Oficial](https://numpy.org/doc/)
 
 ---
+
+#### Link para o vídeo de demonstração
+
+- **Youtube**: [Demonstração da IA de mão](https://youtu.be/D1fsXmw4Keg)
 
 ## 📄 Licença
 
